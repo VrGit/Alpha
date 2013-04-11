@@ -22,8 +22,10 @@ public class Point {
 		
 		Point I = new Point(1, 0) ;
 		Point J = new Point(0, 1) ;
+		Point M = new Point(1, 1) ;
 		
 		System.out.println ("D(I,J)="+I.distance(J)) ;
+		System.out.println ("D(I,M)="+I.distance(M)) ;
 	}
 
 }
