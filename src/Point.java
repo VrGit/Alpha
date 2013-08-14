@@ -12,7 +12,7 @@ public class Point {
 	public double distance (Point p) {
 		double dx=x-p.x;
 		double dy=y-p.y;
-		return -Math.sqrt(dx*dx+dy*dy) ;
+		return -Math.sqrt(dx*dx+dy*dy)-1 ;
 	}
 
 	/**
